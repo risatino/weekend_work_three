@@ -3,7 +3,8 @@
 # the first string, and false otherwise.
 
 def mutation?(base_word, mutation)
-
+# if mutation string are in base_word string
+# then driver will display true
 end
 
 # Driver code - don't touch anything below this line.
