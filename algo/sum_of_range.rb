@@ -10,7 +10,7 @@ def sum_of_range(array)
     sum += num
   end
 
-  puts sum
+  puts sum 
   
 end
 
