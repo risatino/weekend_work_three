@@ -2,16 +2,16 @@
 # two numbers, and return the sum of all of the whole numbers within the range of those
 # numbers, inclusive.
 
-def sum_of_range(array)
-  # array = params[:array]
-  sum = 0
-  array = (1..4).to_a
-  [1, 2, 3, 4].each do |num|
-    sum += num
-  end
 
-  puts sum 
-  
+def sum_of_range(array)
+  a = array[0]
+  b = array[1]
+  if a < b
+    range = Range.new(a, b)
+  else
+    range = Range.new(b, a)
+  end
+  total = range.inject { |sum, num| sum + num }
 end
 
 # Driver code - don't touch anything below this line.
