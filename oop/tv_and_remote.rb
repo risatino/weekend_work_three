@@ -11,6 +11,41 @@
 # decrement_volume (this will decrease the tv's volume by 1)
 # set_channel (this will change the tv's channel to whatever integer is passed to this method)
 
+# class Tv
+#   def initialize(power, volume, channel)
+#     @power = power
+#     @volume = volume
+#     @channel = channel
+#   end
+# end
+
+# class Remote < Tv
+#   def initialize
+#     @tv = Tv
+#   end
+
+#   def toggle_power
+#     if @power == "on"
+#       puts "off"
+#     else
+#       puts "on"
+#     end
+#   end
+
+#   def increment_volume
+#     @volume.to_i += 1
+#   end
+
+#   def set_channel
+#     @channel = set_channel 
+#   end
+# end
+
+# my_tv = Tv.new("on",35, 17)
+
+# p tv.power
+
+# another attempt
 module Remote
   def toggle_power
     if @power == false
